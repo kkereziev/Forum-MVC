@@ -1,0 +1,5 @@
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Data\bin\Debug\netstandard2.0\ForumProject.Data.deps.json
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Data\bin\Debug\netstandard2.0\ForumProject.Data.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Data\obj\Debug\netstandard2.0\ForumProject.Data.csprojAssemblyReference.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Data\obj\Debug\netstandard2.0\ForumProject.Data.AssemblyInfoInputs.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Data\obj\Debug\netstandard2.0\ForumProject.Data.AssemblyInfo.cs

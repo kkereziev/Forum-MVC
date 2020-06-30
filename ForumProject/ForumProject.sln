@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumProject", "ForumProject\ForumProject.csproj", "{801D9FAC-3059-4836-8B2F-B7F5741708B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumProject.Data", "ForumProject.Data\ForumProject.Data.csproj", "{933EE8AF-878E-467A-AE5D-CF05F38D96A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801D9FAC-3059-4836-8B2F-B7F5741708B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801D9FAC-3059-4836-8B2F-B7F5741708B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801D9FAC-3059-4836-8B2F-B7F5741708B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801D9FAC-3059-4836-8B2F-B7F5741708B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933EE8AF-878E-467A-AE5D-CF05F38D96A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933EE8AF-878E-467A-AE5D-CF05F38D96A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933EE8AF-878E-467A-AE5D-CF05F38D96A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933EE8AF-878E-467A-AE5D-CF05F38D96A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7636D826-7AE7-4DB3-98C7-3622A02F9252}
+	EndGlobalSection
+EndGlobal
