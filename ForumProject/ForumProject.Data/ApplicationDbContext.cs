@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ForumProject.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+    public class ApplicationDbContext : IdentityDbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
