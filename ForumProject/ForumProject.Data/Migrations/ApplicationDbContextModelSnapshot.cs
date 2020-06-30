@@ -344,7 +344,7 @@ namespace ForumProject.Data.Migrations
             modelBuilder.Entity("ForumProject.Data.Models.PostReply", b =>
                 {
                     b.HasOne("ForumProject.Data.Models.Post", "Post")
-                        .WithMany()
+                        .WithMany("Replies")
                         .HasForeignKey("PostId");
 
                     b.HasOne("ForumProject.Data.Models.ApplicationUser", "User")

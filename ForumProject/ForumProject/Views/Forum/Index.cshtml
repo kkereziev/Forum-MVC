@@ -1,0 +1,22 @@
+﻿@model ForumIndexModel
+
+<h1>Forum</h1>
+<table class="table table-hover" id="forumIndexTable">
+    <tbody>
+    @foreach (var f in Model.ForumList)
+    {
+        <tr>
+            <td>
+                <a asp-controller="Forum" asp-action="Topic" asp-route-id="@f.Id">
+                    @f.Title
+                </a>
+            </td>
+            <td>
+                @f.Description
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+

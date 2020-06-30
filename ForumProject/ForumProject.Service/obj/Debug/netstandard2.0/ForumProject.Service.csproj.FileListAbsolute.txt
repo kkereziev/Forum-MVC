@@ -1,0 +1,12 @@
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\bin\Debug\netstandard2.0\ForumProject.Service.deps.json
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\bin\Debug\netstandard2.0\ForumProject.Service.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\bin\Debug\netstandard2.0\ForumProject.Service.pdb
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\bin\Debug\netstandard2.0\ForumProject.Data.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\bin\Debug\netstandard2.0\ForumProject.Data.pdb
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.csprojAssemblyReference.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.csproj.CoreCompileInputs.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.AssemblyInfoInputs.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.AssemblyInfo.cs
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.csproj.CopyComplete
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject.Service\obj\Debug\netstandard2.0\ForumProject.Service.pdb
