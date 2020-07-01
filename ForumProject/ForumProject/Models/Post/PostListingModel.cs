@@ -16,6 +16,6 @@ namespace ForumProject.Models.Post
         public string DatePosted { get; set; }
 
         public ForumListingModel Forum { get; set; }
-        public int Replies { get; set; }
+        public int RepliesCount { get; set; }
     }
 }

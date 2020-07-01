@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using AutoMapper;
 
 namespace ForumProject
 {
@@ -30,8 +31,10 @@ namespace ForumProject
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-
+            services.AddAutoMapper(typeof(Startup));
+            
             services.AddScoped<IForum, ForumService>();
+            services.AddScoped<IPost, PostService>();
             
             services.AddControllersWithViews();
             services.AddRazorPages();

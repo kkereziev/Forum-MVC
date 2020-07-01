@@ -155,9 +155,12 @@ C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\ru
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.csproj.CoreCompileInputs.cache
-C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Index.cshtml.g.cs
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\ForumProject.Service.dll
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\ForumProject.Service.pdb
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.csproj.CoreCompileInputs.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Topic.cshtml.g.cs

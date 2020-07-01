@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GaaDPbvRQWlC5GtcUb2yB6SNmI8m2YWYjSfuCuAzmSLHsz7rMXiBXpeRcp7uKDCPzQM+thf4a/0Fp9v3vkJZFg==",
+  "dgSpecHash": "KPhoNXgFq3diixfVgnzpbeQq52gK0joglQWimEwWiTRQ/be2N17BBUDfODM8TFMZVVuLXldJjaoFM3WadZnUxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Krum\\Desktop\\Forum\\ForumProject\\ForumProject\\ForumProject.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Krum\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
+    "C:\\Users\\Krum\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Krum\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.5\\microsoft.aspnetcore.cryptography.internal.3.1.5.nupkg.sha512",
     "C:\\Users\\Krum\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.5\\microsoft.aspnetcore.cryptography.keyderivation.3.1.5.nupkg.sha512",
     "C:\\Users\\Krum\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.5\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.5.nupkg.sha512",
