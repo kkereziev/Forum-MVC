@@ -7,10 +7,10 @@ namespace ForumProject.Models.Forum
 {
     public class ForumIndexModel
     {
-        public ForumIndexModel(IEnumerable<ForumListingModel> forums)
+        public ForumIndexModel(ICollection<ForumListingModel> forums)
         {
             this.ForumList = forums;
         }
-        public IEnumerable<ForumListingModel> ForumList { get; set; }
+        public ICollection<ForumListingModel> ForumList { get; set; }
     }
 }

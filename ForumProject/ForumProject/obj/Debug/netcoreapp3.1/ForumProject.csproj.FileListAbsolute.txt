@@ -164,3 +164,4 @@ C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\Fo
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\ForumProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Topic.cshtml.g.cs
+C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\obj\Debug\netcoreapp3.1\Razor\Views\Post\Index.cshtml.g.cs

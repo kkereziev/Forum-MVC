@@ -5,12 +5,12 @@ namespace ForumProject.Models.Forum
 {
     public class ForumTopicModel
     {
-        public ForumTopicModel(ForumListingModel forum, IEnumerable<PostListingModel> posts)
+        public ForumTopicModel(ForumListingModel forum, ICollection<PostListingModel> posts)
         {
             this.Forum = forum;
             this.Posts = posts;
         }
         public ForumListingModel Forum { get; set; }
-        public IEnumerable<PostListingModel> Posts { get; set; }
+        public ICollection<PostListingModel> Posts { get; set; }
     }
 }

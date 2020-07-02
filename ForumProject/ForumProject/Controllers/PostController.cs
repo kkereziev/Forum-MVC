@@ -34,7 +34,7 @@ namespace ForumProject.Controllers
             return View();
         }
 
-        private IEnumerable<PostReplyModel> BuildPostListing(IEnumerable<PostReply> postReplies)
+        private ICollection<PostReplyModel> BuildPostListing(ICollection<PostReply> postReplies)
         {
             return postReplies.Select(r => new PostReplyModel
             {
@@ -46,7 +46,7 @@ namespace ForumProject.Controllers
                 AuthorName = r.User.UserName,
                 AuthorImageUrl = r.User.ProfileImageUrl,
                 PostId = r.Post.Id
-            });
+            }).ToList();
         }
     }
 }

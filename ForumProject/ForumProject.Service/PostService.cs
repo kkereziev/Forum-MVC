@@ -27,17 +27,17 @@ namespace ForumProject.Service
                 .FirstOrDefault(x => x.Id == id);
         }
 
-        public IEnumerable<Post> GetAll()
+        public ICollection<Post> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Post> GetFilteredPosts(string searchQuery)
+        public ICollection<Post> GetFilteredPosts(string searchQuery)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Post> GetPostsByForum(int id)
+        public ICollection<Post> GetPostsByForum(int id)
         {
             return _context.Forums
                 .First(x => x.Id == id)

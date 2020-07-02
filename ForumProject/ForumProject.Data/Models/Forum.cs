@@ -16,6 +16,6 @@ namespace ForumProject.Data.Models
 
         public string ImageUrl { get; set; }
 
-        public IEnumerable<Post> Posts { get; set; }
+        public ICollection<Post> Posts { get; set; }
     }
 }

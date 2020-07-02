@@ -18,25 +18,26 @@ namespace ForumProject.Service
 
         public Forum GetById(int id)
         {
-            var forum = _context.Forums
-                .Where(x => x.Id == id)
-                .Include(p=>p.Posts)
-                    .ThenInclude(u=>u.User)
-                .Include(f=>f.Posts)
-                    .ThenInclude(r=>r.Replies)
-                        .ThenInclude(r=>r.User)
+            var forum = _context.Forums.Where(f => f.Id == id)
+                .Include(f => f.Posts)
+                    .ThenInclude(f => f.User)
+                .Include(f => f.Posts)
+                    .ThenInclude(f => f.Replies)
+                        .ThenInclude(f => f.User)
+                .Include(f => f.Posts)
+                    .ThenInclude(p => p.Forum)
                 .FirstOrDefault();
-            
+           
             return forum;
         }
 
-        public IEnumerable<Forum> GetAll()
+        public ICollection<Forum> GetAll()
         {
             return _context.Forums
-                 .Include(x=>x.Posts);
+                 .Include(x=>x.Posts).ToList();
         }
 
-        public IEnumerable<ApplicationUser> GetAllActiveUsers()
+        public ICollection<ApplicationUser> GetAllActiveUsers()
         {
             throw new System.NotImplementedException();
         }

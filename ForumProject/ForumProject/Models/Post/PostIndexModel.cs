@@ -9,6 +9,6 @@ namespace ForumProject.Models.Post
     {
         public string Title { get; set; }
 
-        public IEnumerable<PostReplyModel> Replies { get; set; }
+        public ICollection<PostReplyModel> Replies { get; set; }
     }
 }
