@@ -35,7 +35,7 @@ namespace ForumProject
             
             services.AddScoped<IForum, ForumService>();
             services.AddScoped<IPost, PostService>();
-            
+
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddMvc();

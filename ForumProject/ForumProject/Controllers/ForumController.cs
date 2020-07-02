@@ -44,17 +44,13 @@ namespace ForumProject.Controllers
                     Title = p.Title,
                     DatePosted = p.Created.ToString(),
                     RepliesCount = p.Replies.Count(),
-                    Forum = BuildForumListing(p)
+                    Forum = BuildForumListing(p.Forum)
                 });
             var forumListing = BuildForumListing(forum);
             var model=new ForumTopicModel(forumListing,postListings);
             return View(model);
         }
-
-        private ForumListingModel BuildForumListing(Post post)
-        {
-            return _mapper.Map<ForumListingModel>(post.Forum);
-        }
+        
         private ForumListingModel BuildForumListing(Forum forum)
         {
             return _mapper.Map<ForumListingModel>(forum);

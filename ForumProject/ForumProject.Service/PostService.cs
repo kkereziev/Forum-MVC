@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using ForumProject.Data;
 using ForumProject.Data.Interfaces;
 using ForumProject.Data.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace ForumProject.Service
 {
@@ -18,7 +19,12 @@ namespace ForumProject.Service
 
         public Post GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Posts
+                .Include(p=>p.Replies)
+                .Include(p=>p.Replies)
+                    .ThenInclude(r=>r.User)
+                .Include(p=>p.Forum)
+                .FirstOrDefault(x => x.Id == id);
         }
 
         public IEnumerable<Post> GetAll()
