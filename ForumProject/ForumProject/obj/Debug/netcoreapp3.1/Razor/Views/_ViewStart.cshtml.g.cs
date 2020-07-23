@@ -40,8 +40,15 @@ using ForumProject.Models.Post;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\Krum\Desktop\Forum\ForumProject\ForumProject\Views\_ViewImports.cshtml"
+using ForumProject.Data.Models;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1a5d6878f12b61ec09421a5dc363d1b1a2822f44", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b36fd59e768402910b3ba4e6612b16e03267627a", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

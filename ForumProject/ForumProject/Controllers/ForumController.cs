@@ -47,7 +47,7 @@ namespace ForumProject.Controllers
                 RepliesCount = post.Replies.Count(),
                 Forum = BuildForumListing(post)
 
-            }).ToList();
+            });
 
             var forumListing = BuildForumListing(forum);
             var model=new ForumTopicModel(forumListing, postListings);

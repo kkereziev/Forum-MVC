@@ -9,9 +9,9 @@ namespace ForumProject.Data.Interfaces
     {
         Forum GetById(int id);
 
-        ICollection<Forum> GetAll();
+        IEnumerable<Forum> GetAll();
 
-        ICollection<ApplicationUser> GetAllActiveUsers();
+        IEnumerable<ApplicationUser> GetAllActiveUsers();
 
         Task Create(Forum forum);
 

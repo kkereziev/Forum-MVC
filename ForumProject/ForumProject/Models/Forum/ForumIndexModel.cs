@@ -11,6 +11,6 @@ namespace ForumProject.Models.Forum
         {
             this.ForumList = forums;
         }
-        public ICollection<ForumListingModel> ForumList { get; set; }
+        public IEnumerable<ForumListingModel> ForumList { get; set; }
     }
 }

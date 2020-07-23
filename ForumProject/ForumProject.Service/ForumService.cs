@@ -18,7 +18,7 @@ namespace ForumProject.Service
 
         public Forum GetById(int id)
         {
-            var forum = _context.Forums.Where(f => f.Id == id)
+            var forum = _context.Forums
                 .Include(f => f.Posts)
                     .ThenInclude(f => f.User)
                 .Include(f => f.Posts)
@@ -26,18 +26,18 @@ namespace ForumProject.Service
                         .ThenInclude(f => f.User)
                 .Include(f => f.Posts)
                     .ThenInclude(p => p.Forum)
-                .FirstOrDefault();
+                .FirstOrDefault(f => f.Id == id);
            
             return forum;
         }
 
-        public ICollection<Forum> GetAll()
+        public IEnumerable<Forum> GetAll()
         {
             return _context.Forums
                  .Include(x=>x.Posts).ToList();
         }
 
-        public ICollection<ApplicationUser> GetAllActiveUsers()
+        public IEnumerable<ApplicationUser> GetAllActiveUsers()
         {
             throw new System.NotImplementedException();
         }

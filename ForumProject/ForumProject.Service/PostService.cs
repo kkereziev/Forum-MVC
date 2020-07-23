@@ -24,29 +24,32 @@ namespace ForumProject.Service
                 .Include(p=>p.Replies)
                     .ThenInclude(r=>r.User)
                 .Include(p=>p.Forum)
+                    .ThenInclude(u=>u.Posts)
+                        .ThenInclude(u=>u.User)
                 .FirstOrDefault(x => x.Id == id);
         }
 
-        public ICollection<Post> GetAll()
+        public IEnumerable<Post> GetAll()
         {
             throw new NotImplementedException();
         }
 
-        public ICollection<Post> GetFilteredPosts(string searchQuery)
+        public IEnumerable<Post> GetFilteredPosts(string searchQuery)
         {
             throw new NotImplementedException();
         }
 
-        public ICollection<Post> GetPostsByForum(int id)
+        public IEnumerable<Post> GetPostsByForum(int id)
         {
             return _context.Forums
                 .First(x => x.Id == id)
                 .Posts;
         }
 
-        public Task Add(Post post)
+        public async Task Add(Post post)
         {
-            throw new NotImplementedException();
+            _context.Add(post);
+            await _context.SaveChangesAsync();
         }
 
         public Task Delete(int id)
